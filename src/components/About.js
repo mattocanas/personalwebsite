@@ -60,26 +60,26 @@ const About = () => {
 
       <Container className='second-container'>
         <Row className='skills-row'>
-          <Col align='center'>
+          <Col lg='3' sm='auto' align='center'>
             <img className='icon' src={coding} />
             <h3 className='skills-title'>Web Design & Development</h3>
           </Col>
-          <Col align='center'>
+          <Col lg='3' sm='auto' align='center'>
             <img className='icon' src={mobile} />
             <h3 className='skills-title'>Mobile App Architecture</h3>
           </Col>
-          <Col align='center'>
+          <Col lg='3' sm='auto' align='center'>
             <img className='icon' src={ai} />
             <h3 className='skills-title'>Using ML to Streamline</h3>
           </Col>
-          <Col align='center'>
+          <Col lg='3' sm='auto' align='center'>
             <img className='icon' src={engineering} />
             <h3 className='skills-title'>Engineering future</h3>
           </Col>
         </Row>
 
         <Row className='skills-text-row'>
-          <Col align='center'>
+          <Col lg='3' sm='auto' align='center'>
             <p>
               Equipped with an ever-growing knowledge of HTML, CSS and
               Javascript, I have the ability to create beautiful static website
@@ -96,7 +96,7 @@ const About = () => {
               able to refer you to a different developer.
             </p>
           </Col>
-          <Col align='center'>
+          <Col lg='3' sm='auto' align='center'>
             <p>
               Mobile UX and UI is an area that has always been of great interest
               to me, and with mobile internet having grown over 500% in the last
@@ -113,7 +113,7 @@ const About = () => {
               back to you with a quote!
             </p>
           </Col>
-          <Col align='center'>
+          <Col lg='3' sm='auto' align='center'>
             <p>
               We have all seen the headlines, and know that the future of
               technology lay with Machine Learning and Artificial Intelligence.
@@ -130,7 +130,7 @@ const About = () => {
               field.
             </p>
           </Col>
-          <Col align='center'>
+          <Col lg='3' sm='auto' align='center'>
             <p>
               Texas at Austin’s Cockrell School of Engineering. The clean energy
               industry, specifically nuclear energy, and well as the biomedical
