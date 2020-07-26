@@ -31,9 +31,11 @@ const Note = ({
           </Col>
         </Row>
         <Row align='center'>
-          <Col className='text-col col-4'>
+          <Col />
+          <Col className='text-col col-6'>
             <p className='note-text'>{text}</p>
           </Col>
+          <Col />
         </Row>
       </Container>
     </>

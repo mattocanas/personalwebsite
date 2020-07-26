@@ -30,12 +30,12 @@ const About = () => {
   return (
     <>
       <Container className='first-container'>
-        <Row>
+        <Row className='title-row'>
           <Col className='title-column-custom' align='center'>
             <h1 className='title-custom'>i'm matthew</h1>
           </Col>
         </Row>
-        <Row className='justify-content-center'>
+        <Row className='justify-content-center subtitle-row'>
           <Col className='subtitle-column-custom' align='center'>
             <Typing speed={60}>
               <h3 className='subtitle-custom'>
@@ -80,33 +80,33 @@ const About = () => {
 
         <Row className='skills-text-row'>
           <Col lg='3' sm='auto' align='center'>
-            <p>
+            <p className='about-text'>
               Equipped with an ever-growing knowledge of HTML, CSS and
-              Javascript, I have the ability to create beautiful static website
+              Javascript, I have the ability to create beautiful static websites
               to match whatever specifications your heart or mind desires. With
               over six years of experience with Adobe Photoshop, any custom
               design or icon you wish to display on your site can easily be
               turned into a reality. Beyond static webpages, my experience with
-              React, mongoDB, Express, and Node, allow to to develop fully
+              React, mongoDB, Express, and Node, allow me to to develop fully
               featured web application using live data from custom made or
               public APIs. I am always excited about new design and development
-              challenges for the web! Contact me using the form below to find
-              out hire me for your technical challenges. If I am currently
-              unavailable, or am unable to meet your specifications, I will be
-              able to refer you to a different developer.
+              challenges for the web! Contact me using the form below to hire me
+              for your technical challenges. If I am currently unavailable, or
+              am unable to meet your specifications, I will be able to refer you
+              to a different developer.
             </p>
           </Col>
           <Col lg='3' sm='auto' align='center'>
-            <p>
+            <p className='about-text'>
               Mobile UX and UI is an area that has always been of great interest
-              to me, and with mobile internet having grown over 500% in the last
-              nine years alone, with no sign of slowing down, there has never
-              been a better time to put your business in the App Store. Using
-              the React Native framework gives me the ability to create your
-              application for both iOS and Android users, with just one code
+              to me, and with mobile internet usage having grown over 500% in
+              the last nine years alone, with no sign of slowing down, there has
+              never been a better time to put your business in the App Store.
+              Using the React Native framework gives me the ability to create
+              your application for both iOS and Android users with just one code
               base. The speed and ability of React Native can be seen through
               apps like Facebook, Instagram, Uber Eats, and AirBnb. The mobile
-              applications i develop for you will not only be beautiful, but
+              applications I develop for you will not only be beautiful, but
               fully functioning, utilizing the same full-stack technologies that
               power all of the largest companies. Send me an email using the
               form below, with your mobile app specifications and I will get
@@ -114,13 +114,13 @@ const About = () => {
             </p>
           </Col>
           <Col lg='3' sm='auto' align='center'>
-            <p>
+            <p className='about-text'>
               We have all seen the headlines, and know that the future of
               technology lay with Machine Learning and Artificial Intelligence.
-              Unfortunately, the vast majorities of businesses either don’t
+              Unfortunately, the vast majority of businesses either don’t
               implement, or misuse machine learning. The ability for this field
-              to streamline and transform out-of-date industries, is a topic I
-              am both very interested in and passionate about. Using Python,
+              to streamline and transform out-of-date industries is a topic I am
+              both very interested in and passionate about. Using Python,
               TensorFlow, and PyTorch to create fun, interesting, and inspiring
               user experiences, is something I work on everyday. Expect to see
               machine learning engineering work appear very soon in my
@@ -131,20 +131,18 @@ const About = () => {
             </p>
           </Col>
           <Col lg='3' sm='auto' align='center'>
-            <p>
-              Texas at Austin’s Cockrell School of Engineering. The clean energy
-              industry, specifically nuclear energy, and well as the biomedical
-              field have been the biggest inspirations in my journey to become
-              an engineer. My goal is to incorporate my love for engineering
-              both mechanical systems, as well as digital systems to build top
-              to bottom businesses that shape our future, and inspire our users
-              to further shape a better future using technology. If you would
-              like to join me on this path, or follow the research that I am
-              currently doing in the field of mechanical engineering, head over
-              to the “notes” section where I will post articles about subjects I
-              find interesting. If you'd like to follow engineering projects
-              that I am currently working on, go to my github where each project
-              will be provided with its own repo.
+            <p className='about-text'>
+              Beginning in fall 2020, I will be a mechanical engineering student
+              at The University of Texas at Austin’s Cockrell School of
+              Engineering. The clean energy industry, specifically nuclear
+              energy, as well as the biomedical field, have been the biggest
+              inspirations in my journey to become an engineer. My goal is to
+              incorporate my love for engineering both mechanical systems, as
+              well as digital systems to build top to bottom businesses that
+              shape our future. If you would like to join me on this path, or
+              follow the research that I am currently doing in the field of
+              mechanical engineering, head over to the “notes” section where I
+              will post articles about subjects I find interesting.
             </p>
           </Col>
         </Row>
@@ -222,7 +220,7 @@ const About = () => {
           <Col align='center'>
             <Button size='lg'>
               <a className='email-link' href='mailto:matthew.ocanas@icloud.com'>
-                Email Us
+                send messenger pigeon
               </a>
             </Button>{" "}
           </Col>

@@ -13,11 +13,14 @@ const Notes = () => {
           </Col>
         </Row>
       </Container>
-      <Note
+      {/* <Note
         title='title'
         subtitle='subtitle'
         text='textajksdfhajhsdfjkhasdjkf asdjkfhajksdhfjkahsdfjk askdjfhasjkdfhkajsdfjkashd fjkashdfjkhasdkjfhajksdfadsfd asd fas df asd fa sdf asdf as df asdf asd fa sdf as df asdf as df asdf as df asdf asd f asdf as df asd fa sdf asd fa sdf asd fa sdf '
-      />
+      /> */}
+      <h1 className='construction'>
+        Under Construction. Please put on a hard hat.
+      </h1>
 
       <Container className='fourth-container-notes'>
         <Row className='fourth-container-title-row'>

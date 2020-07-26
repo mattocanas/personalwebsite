@@ -1,6 +1,6 @@
 .icon {
-  height: 100px;
-  width: 100px;
+  height: 5rem;
+  width: 5rem;
 }
 
 .first-container {
@@ -8,6 +8,7 @@
   height: 430px;
   text-align: center;
   position: relative;
+  padding-top: 100px;
 }
 
 .title-custom {
@@ -24,17 +25,25 @@
 .subtitle-custom {
   color: #5c5470;
   font-family: "Montserrat", sans-serif;
-  font-size: 2rem;
+  font-size: 2.5rem;
 }
 
-.title-column-custom {
-  position: absolute;
-  top: 40%;
+/* .title-column-custom {
 }
 
 .subtitle-column-custom {
-  position: absolute;
-  top: 57%;
+}
+
+.subtitle-row {
+} */
+
+.title-row {
+  padding-bottom: rem;
+}
+
+.about-text {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.1rem;
 }
 
 .container {
@@ -48,6 +57,7 @@
 
 .second-container {
   background-color: white;
+  padding: auto 20px;
 }
 
 .skills-title {
@@ -63,6 +73,8 @@
 .skills-text-row {
   padding-top: 3rem;
   padding-bottom: 5rem;
+  padding-right: 30px;
+  padding-left: 30px;
 }
 
 .third-container {
@@ -94,12 +106,12 @@
 
 .fourth-container-title-row {
   padding-top: 3rem;
-  padding-bottom: 2rem;
+  padding-bottom: 1rem;
 }
 
 .fourth-container-input-row {
   padding-bottom: 3rem;
-  padding-top: 2rem;
+  padding-top: 0rem;
 }
 
 .custom-input {
