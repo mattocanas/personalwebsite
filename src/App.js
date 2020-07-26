@@ -1,23 +1,31 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import About from "./components/About";
+import Work from "./components/Work";
+import Notes from "./components/Notes";
 
 const App = () => {
   return (
-    <div>
+    <>
       <Router>
         <Header />
         <Switch>
-          <Route path='/'>
+          <Route exact path='/'>
             <About />
+          </Route>
+          <Route path='/work'>
+            <Work />
+          </Route>
+          <Route path='/notes'>
+            <Notes />
           </Route>
         </Switch>
         <Footer />
       </Router>
-    </div>
+    </>
   );
 };
 

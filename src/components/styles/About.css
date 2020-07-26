@@ -1,4 +1,138 @@
 .icon {
-  height: 75px;
-  width: 75px;
+  height: 100px;
+  width: 100px;
+}
+
+.first-container {
+  background-color: #f5f5f5;
+  height: 430px;
+  text-align: center;
+  position: relative;
+}
+
+.title-custom {
+  color: #352f44;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 4rem;
+}
+
+.title-span {
+  text-decoration: underline;
+}
+
+.subtitle-custom {
+  color: #5c5470;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+}
+
+.title-column-custom {
+  position: absolute;
+  top: 40%;
+}
+
+.subtitle-column-custom {
+  position: absolute;
+  top: 57%;
+}
+
+.container {
+  max-width: 100%;
+}
+
+.top-container-padding-custom {
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+
+.second-container {
+  background-color: white;
+}
+
+.skills-title {
+  padding-top: 2.2rem;
+  font-family: "Montserrat", sans-serif;
+  color: #5c5470;
+}
+
+.skills-row {
+  padding-top: 4rem;
+}
+
+.skills-text-row {
+  padding-top: 3rem;
+  padding-bottom: 5rem;
+}
+
+.third-container {
+  background-color: #f5f5f5;
+  height: 550px;
+  position: relative;
+  align-items: center;
+}
+
+.third-container-title-row {
+  padding-top: 2rem;
+}
+
+.technologies-first-row {
+  padding-top: 100px;
+  padding-bottom: 3rem;
+}
+.technologies-second-row {
+  /* position: absolute; */
+  padding-top: 2rem;
+}
+
+.fourth-container {
+  background-color: white;
+  padding-bottom: 2rem;
+  height: 300px;
+  margin-top: 2rem;
+}
+
+.fourth-container-title-row {
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+}
+
+.fourth-container-input-row {
+  padding-bottom: 3rem;
+  padding-top: 2rem;
+}
+
+.custom-input {
+  width: 50%;
+}
+
+.technologies-title {
+  color: #5c5470;
+  font-family: "Montserrat", sans-serif;
+  font-size: 3rem;
+}
+
+.input-header {
+  font-size: 2.3rem;
+  color: #2a2438;
+  font-family: "Montserrat", sans-serif;
+}
+
+.btn-secondary {
+  background-color: #5c5470;
+  border-color: #5c5470;
+}
+.input-group-text {
+  color: white;
+  background-color: #5c5470;
+}
+
+.email-link {
+  color: #f5f5f5;
+  text-decoration: none;
+}
+
+.email-link:hover {
+  color: #f5f5f5;
+  text-decoration: none;
 }

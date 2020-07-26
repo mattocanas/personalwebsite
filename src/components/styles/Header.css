@@ -1,0 +1,32 @@
+.navbar-custom {
+  background-color: #f5f5f5;
+  margin-bottom: 0rem !important;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
+}
+
+.navlink-custom {
+  text-decoration: none;
+  color: black;
+}
+
+.navbar a:hover {
+  color: #5c5470 !important;
+}
+
+.navbarbrand-custom {
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+  padding-top: 1rem;
+}
+
+.footer-custom {
+  background-color: #f5f5f5;
+  margin-bottom: 0 !important;
+}
+
+.social-icon {
+  height: 20px;
+  width: 20px;
+}

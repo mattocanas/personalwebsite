@@ -1,0 +1,41 @@
+.note-image {
+  height: 300px;
+  width: 300px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.note-container {
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+
+.title-col {
+  padding-top: 2rem;
+}
+
+.subtitle-col {
+  padding-top: 0.5rem;
+}
+
+.text-col {
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+  left: 34%;
+}
+
+.note-title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.note-subtitle {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+}
+
+.note-text {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+}

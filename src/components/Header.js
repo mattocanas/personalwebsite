@@ -5,37 +5,45 @@ import {
   NavbarToggler,
   NavbarBrand,
   Nav,
-  NavItem,
   NavLink,
+  NavItem,
   Container,
 } from "reactstrap";
+import styles from "./styles/Header.css";
 
 const Header = () => {
-  const [open, setOpen] = useState(false);
+  const [collapsed, setCollapsed] = useState(true);
 
-  const toggle = () => {
-    setOpen(!open);
-  };
+  const toggleNavbar = () => setCollapsed(!collapsed);
 
   return (
     <div>
-      <Navbar className='mb-5' expand='sm'>
-        <Container>
-          <NavbarBrand href='/'>Ocanas</NavbarBrand>
-          <NavbarToggler onClick={toggle} />
-          <Collapse isOpen={open} />
+      <Navbar className='mb-5 navbar-custom' light expand='sm'>
+        {/* <Container> */}
+        <NavbarBrand className='navbarbrand-custom' href='/'>
+          Ocanas
+        </NavbarBrand>
+        <NavbarToggler onClick={toggleNavbar} className='mr-2' />
+        <Collapse color='dark' isOpen={!collapsed} navbar>
           <Nav className='ml-auto' navbar>
             <NavItem>
-              <NavLink href='/'>about</NavLink>
+              <NavLink href='/' className='navlink-custom'>
+                about
+              </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href='/'>work</NavLink>
+              <NavLink exact href='/work' className='navlink-custom'>
+                work
+              </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href='/'>notes</NavLink>
+              <NavLink className='navlink-custom' href='/notes'>
+                notes
+              </NavLink>
             </NavItem>
           </Nav>
-        </Container>
+        </Collapse>
+        {/* </Container> */}
       </Navbar>
     </div>
   );
