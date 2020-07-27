@@ -13,7 +13,7 @@ const App = () => {
       <Router>
         <Header />
         <Switch>
-          <Route path='/'>
+          <Route exact path='/'>
             <About />
           </Route>
           <Route path='/work'>
