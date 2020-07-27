@@ -47,7 +47,7 @@ const Work = () => {
         </Row>
 
         <Row align='center'>
-          <Col className='col-6 mx-auto'>
+          <Col className='col-6 mx-auto' lg='6' xs='12'>
             <p
               className='work-text'
               style={{ color: "#F5F5F5", paddingTop: "2rem" }}
