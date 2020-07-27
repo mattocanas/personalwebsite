@@ -32,7 +32,7 @@ const Footer = () => {
       >
         <Container>
           <NavbarBrand className='navbarbrand-custom' href='/'>
-            Ocanas
+            Ocañas
           </NavbarBrand>
           <NavbarToggler onClick={toggleNavbar} className='mr-2' />
           <Collapse color='dark' isOpen={!collapsed} navbar>

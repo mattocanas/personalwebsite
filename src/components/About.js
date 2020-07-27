@@ -32,7 +32,7 @@ const About = () => {
       <Container className='first-container'>
         <Row className='title-row'>
           <Col className='title-column-custom' align='center'>
-            <h1 className='title-custom'>i'm matthew</h1>
+            <h1 className='title-custom'>I'm Matthew</h1>
           </Col>
         </Row>
         <Row className='justify-content-center subtitle-row'>
@@ -63,23 +63,6 @@ const About = () => {
           <Col lg='3' sm='auto' align='center'>
             <img className='icon' src={coding} />
             <h3 className='skills-title'>Web Design & Development</h3>
-          </Col>
-          <Col lg='3' sm='auto' align='center'>
-            <img className='icon' src={mobile} />
-            <h3 className='skills-title'>Mobile App Architecture</h3>
-          </Col>
-          <Col lg='3' sm='auto' align='center'>
-            <img className='icon' src={ai} />
-            <h3 className='skills-title'>Using ML to Streamline</h3>
-          </Col>
-          <Col lg='3' sm='auto' align='center'>
-            <img className='icon' src={engineering} />
-            <h3 className='skills-title'>Engineering future</h3>
-          </Col>
-        </Row>
-
-        <Row className='skills-text-row'>
-          <Col lg='3' sm='auto' align='center'>
             <p className='about-text'>
               Equipped with an ever-growing knowledge of HTML, CSS and
               Javascript, I have the ability to create beautiful static websites
@@ -97,6 +80,8 @@ const About = () => {
             </p>
           </Col>
           <Col lg='3' sm='auto' align='center'>
+            <img className='icon' src={mobile} />
+            <h3 className='skills-title'>Mobile App Architecture</h3>
             <p className='about-text'>
               Mobile UX and UI is an area that has always been of great interest
               to me, and with mobile internet usage having grown over 500% in
@@ -114,23 +99,27 @@ const About = () => {
             </p>
           </Col>
           <Col lg='3' sm='auto' align='center'>
+            <img className='icon' src={ai} />
+            <h3 className='skills-title'>Using ML to Streamline</h3>
             <p className='about-text'>
-              We have all seen the headlines, and know that the future of
-              technology lay with Machine Learning and Artificial Intelligence.
-              Unfortunately, the vast majority of businesses either don’t
-              implement, or misuse machine learning. The ability for this field
-              to streamline and transform out-of-date industries is a topic I am
-              both very interested in and passionate about. Using Python,
-              TensorFlow, and PyTorch to create fun, interesting, and inspiring
-              user experiences, is something I work on everyday. Expect to see
-              machine learning engineering work appear very soon in my
-              portfolio. Until then, if you would like to follow or join in on
-              my journey to ML Engineer, head to the notes tab, where I plan to
-              frequently post about what I am currently studying in the ML
-              field.
+              Equipped with an ever-growing knowledge of HTML, CSS and
+              Javascript, I have the ability to create beautiful static websites
+              to match whatever specifications your heart or mind desires. With
+              over six years of experience with Adobe Photoshop, any custom
+              design or icon you wish to display on your site can easily be
+              turned into a reality. Beyond static webpages, my experience with
+              React, mongoDB, Express, and Node, allow me to to develop fully
+              featured web application using live data from custom made or
+              public APIs. I am always excited about new design and development
+              challenges for the web! Contact me using the form below to hire me
+              for your technical challenges. If I am currently unavailable, or
+              am unable to meet your specifications, I will be able to refer you
+              to a different developer.
             </p>
           </Col>
           <Col lg='3' sm='auto' align='center'>
+            <img className='icon' src={engineering} />
+            <h3 className='skills-title'>Engineering the Future</h3>
             <p className='about-text'>
               Beginning in fall 2020, I will be a mechanical engineering student
               at The University of Texas at Austin’s Cockrell School of
@@ -156,49 +145,50 @@ const About = () => {
         </Row>
 
         <Row className='technologies-first-row'>
-          <Col />
-          <Col align='start'>
+          <Col lg='1' xs='1' />
+          <Col lg='1' xs='1' align='start'>
             <img className='icon' src={html} />
           </Col>
-          <Col />
-          <Col align='start'>
+          <Col lg='1' xs='1' />
+          <Col lg='1' xs='1' align='start'>
             <img className='icon' src={javascript} />
           </Col>
-          <Col />
-          <Col align='start'>
+          <Col lg='1' xs='1' />
+          <Col lg='1' xs='1' align='start'>
             <img className='icon' src={mongodb} />
           </Col>
-          <Col />
-          <Col align='start'>
+          <Col lg='1' xs='1' />
+          <Col lg='1' xs='1' align='start'>
             <img className='icon' src={node} />
           </Col>
-          <Col />
-          <Col align='start'>
+          <Col lg='1' xs='1' />
+          <Col lg='1' xs='1' align='start'>
             <img className='icon' src={python} />
           </Col>
-          <Col />
+          {/* <Col lg='1' xs='1' />
+          <Col lg='1' xs='1' /> */}
         </Row>
 
         <Row className='technologies-second-row'>
-          <Col />
-          <Col />
-          <Col align='center'>
+          <Col lg='1' xs='1' />
+          <Col lg='1' xs='1' />
+          <Col lg='1' xs='1' align='center'>
             <img className='icon' src={css} />
           </Col>
-          <Col />
-          <Col align='center'>
+          <Col lg='1' xs='1' />
+          <Col lg='1' xs='1' align='center'>
             <img className='icon' src={express} />
           </Col>
-          <Col />
-          <Col align='center'>
+          <Col lg='1' xs='1' />
+          <Col lg='1' xs='1' align='center'>
             <img className='icon' src={react} />
           </Col>
-          <Col />
-          <Col align='center'>
+          <Col lg='1' xs='1' />
+          <Col lg='1' xs='1' align='center'>
             <img className='icon' src={reactnative} />
           </Col>
-          <Col />
-          <Col />
+          {/* <Col lg='1' xs='1' />
+          <Col lg='1' xs='1' /> */}
         </Row>
       </Container>
 
